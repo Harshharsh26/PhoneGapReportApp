@@ -5,6 +5,12 @@
       <title>Mulitiple Data</title>
        <script src="js/jquery.min.js"></script>
        <script src="js/jput-2.js"></script>
+       <script src="js/jquery.mobile-1.4.5.min.js"></script>
+       <link rel="stylesheet" href="css/themes/default/jquery.mobile-1.4.5.min.css">
+       <link rel="stylesheet" href="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.css">
+       <script src="http://cdn.rawgit.com/jquery/jquery-ui/1.10.4/ui/jquery.ui.datepicker.js"></script>
+       <script id="mobile-datepicker" src="http://cdn.rawgit.com/arschmitz/jquery-mobile-datepicker-wrapper/v0.1.1/jquery.mobile.datepicker.js"></script>
+
       <script>
       function edit(index)
       {
@@ -50,6 +56,7 @@
       </script>
    </head>
    <body>
+       <input type="text" data-role="date" data-inline="true">
       <br/>
       Name :<input id="name" type="text" value="Name" />
       Email :<input id="email" type="text" value="user@gmail.com"  />
